@@ -1,0 +1,129 @@
+
+
+.open-sans-normal {
+  font-family: "Open Sans", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.textPrimary {
+    color: #FD6E0A;
+}
+
+.darkTwo {
+    color: #474747;
+}
+
+.btnPrimary {
+    background-color: #FD6E0A;
+    font-weight: bold;
+    color: white;
+    padding: 18px 35px;
+    font-size: 20px;
+    border-radius: 5px;
+    border: none;
+}
+
+.bgPrimary {
+    background-color: #FFF8F3;
+}
+
+.header {
+    background-image: url(../images/developer.png), 
+    url(../images/header_bg.png) ;
+    background-repeat: no-repeat;
+    background-position:top left,  bottom right;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px 230px;
+}
+
+.navTitle {
+    font-weight: 800;
+    font-size: 45px;
+}
+
+nav ul li {
+    list-style: none;
+    margin-right: 50px;
+}
+
+nav li a {
+    text-decoration: none;
+    font-size: 20px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+.banner {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 35px 0 230px;
+}
+
+.bannerContent {
+    max-width: 585px;
+}
+
+.bannerGreetings {
+    font-size: 45px;
+    font-weight: 500;
+}
+
+.bannerTitle {
+    font-size: 85px;
+    font-weight: bold;
+}
+
+.bannerDp {
+    width: 585px;
+    text-align: center;
+}
+
+.about {
+    border-radius: 10px;
+    padding: 130px 150px;
+    margin-top: 130px;
+}
+
+.aboutTitle {
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+    text-align: center;
+}
+
+.aboutDescrip {
+    color: #757575;
+    font-size: 18px;
+}
+
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.aboutItems {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.itemDescrip {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.itemTitle {
+    font-size: 20px;
+    color: #757575;
+}
