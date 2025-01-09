@@ -30,6 +30,10 @@
     background-color: #FFF8F3;
 }
 
+.textCenter {
+    align-items: center;
+}
+
 .header {
     background-image: url(../images/developer.png), 
     url(../images/header_bg.png) ;
@@ -41,7 +45,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 50px 230px;
+    margin: 0 230px;
 }
 
 .navTitle {
@@ -112,6 +116,10 @@ main {
     margin: 0 auto;
 }
 
+main section {
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
 .aboutItems {
     display: flex;
     justify-content: space-between;
@@ -126,4 +134,68 @@ main {
 .itemTitle {
     font-size: 20px;
     color: #757575;
+}
+
+.skillsTitle {
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+    text-align: center;
+}
+
+.skillsDescrip {
+    color: #757575;
+    font-size: 18px;
+}
+
+.skillsContent{
+    display: flex;
+    gap: 24px;
+}
+
+.skill {
+    border-radius: 5px;
+    padding: 30px;
+    box-shadow: 0 6px 50px 0 rgba(0, 0, 0, 0.06);
+}
+
+.resume hr {
+    margin: 30px 0;
+}
+
+.resumeContent {
+    display: flex;
+    gap: 24px;
+}
+
+.experienceSubTitle {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.experienceDescrip, .experienceSubTitle {
+    color: #757575;
+}
+
+footer {
+    padding: 130px 230px;
+    display: flex;
+    gap: 100px;
+}
+
+.footerColumn {
+    width: 50%;
+}
+
+footer input[type = 'text'], footer input[type = 'email'], footer textarea {
+    height: 64px;
+    border-radius: 5px;
+    border-color: white;
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border: none;
+    outline: none;
 }
